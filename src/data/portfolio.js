@@ -10,6 +10,7 @@ const data = [
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
     image: Image1,
+    github: 'https://example.com',
   },
   {
     title: 'Project 2',
@@ -18,6 +19,7 @@ const data = [
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
     image: Image2,
+    github: 'https://example.com',
   },
   {
     title: 'Project 3',
@@ -26,6 +28,7 @@ const data = [
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
     image: Image3,
+    github: 'https://example.com',
   },
   {
     title: 'Project 4',
@@ -34,6 +37,7 @@ const data = [
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
     image: Image1,
+    github: 'https://example.com',
   },
 ]
 

@@ -11,8 +11,9 @@ export class view extends Component {
       description: 'default description',
       image: 'https://via.placeholder.com/350',
       website: 'https://via.placeholder.com',
+      github: 'www.github.com',
     }
-    const { title, description, image, website } = passedData
+    const { title, description, image, website, github } = passedData
     return (
       <Layout>
         <Helmet>
@@ -29,6 +30,14 @@ export class view extends Component {
               Website:{' '}
               <a href={website} target="_new">
                 {website}
+              </a>
+            </div>
+          )}
+          {github && (
+            <div>
+              Github:{' '}
+              <a href={github} target="_new">
+                {github}
               </a>
             </div>
           )}
